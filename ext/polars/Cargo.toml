@@ -20,6 +20,7 @@ polars-parquet = "=0.41.2"
 polars-utils = "=0.41.2"
 serde_json = "1"
 smartstring = "1"
+rb-sys = "0.9.98"
 
 [dependencies.polars]
 version = "=0.41.2"

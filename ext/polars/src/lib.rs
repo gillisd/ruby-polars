@@ -17,6 +17,11 @@ mod series;
 mod sql;
 mod utils;
 
+#[cfg(truffleruby)]
+mod truffleruby_compat;
+#[cfg(truffleruby)]
+use truffleruby_compat::*;
+
 use batched_csv::RbBatchedCsv;
 use conversion::*;
 use dataframe::RbDataFrame;
